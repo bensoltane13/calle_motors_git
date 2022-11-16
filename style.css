@@ -1,0 +1,317 @@
+body {
+    background-color: #505050;
+}
+
+.bandeau {
+    display: flex;
+    background-color: #8F8B8B;
+    flex-direction: row;
+    border-radius: 30px;
+    height: 120px;
+    margin-top: 30px;
+
+}
+
+.retour {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 46px;
+    height: 49px;
+    margin-top: 20px;
+
+}
+
+.back {
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+    width: 67px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.recherche {
+    display: flex;
+    width: 70%;
+    height: 100%;
+
+
+}
+
+.budget {
+    display: flex;
+    height: 40px;
+    width: 20%;
+
+    margin-top: 22px;
+
+}
+
+.prix {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 30px;
+    color: #8F8B8B;
+}
+
+.permtype {
+    display: flex;
+    height: 40px;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.permis {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+}
+
+
+.motortype {
+    display: flex;
+    height: 40px;
+    width: 20%;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+
+.moteur {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 2px;
+    color: #8F8B8B;
+}
+
+.cherche {
+    display: flex;
+    height: 40px;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 22px;
+}
+
+.type {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 18px;
+    background-color: red;
+    color: white;
+}
+
+.transmi {
+    display: flex;
+    height: 40px;
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 22px;
+
+}
+
+.transmission {
+    display: flex;
+    width: 180px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: #8F8B8B;
+}
+
+.espace {
+    width: 300px;
+    color: #8F8B8B;
+}
+
+.trier {
+    display: flex;
+    height: 40px;
+    width: 70%;
+    align-items: center;
+    margin-top: 22px;
+    flex-direction: row;
+    /* background-color: aqua; */
+    margin-left: 30%;
+}
+
+.cliquer {
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 18px;
+    background-color: red;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loupe {
+    width: 40px;
+    height: 35px;
+    margin-left: 120px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: #F31E1E;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.vitrinemoto {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 120px;
+    grid-row-gap: 0px;
+}
+
+
+
+.photomoto1 {
+    grid-area: 1 / 1 / 3 / 3;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px 35px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+    
+}
+
+.photomoto2 {
+    grid-area: 1 / 3 / 3 / 5;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px 35px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+}
+
+.photomoto3 {
+    grid-area: 1 / 5 / 3 / 7;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px 35px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+}
+
+.textmoto1 {
+    grid-area: 3 / 1 / 4 / 3;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px; 
+}
+
+.textmoto2 {
+    grid-area: 3 / 3 / 4 / 5;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px;
+    
+}
+
+.textmoto3 {
+    grid-area: 3 / 5 / 4 / 7;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px;
+    
+}
+
+.photomoto4 {
+    grid-area: 4 / 1 / 6 / 3;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px 35px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+}
+
+.photomoto5 {
+    grid-area: 4 / 3 / 6 / 5;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px 40px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+}
+
+.photomoto6 {
+    grid-area: 4 / 5 / 6 / 7;
+    background-color: white;
+    margin-top: 50px;
+    padding: 60px 40px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 2000px rgba(51, 51, 51, 0.5);
+}
+
+.textmoto4 {
+    grid-area: 6 / 1 / 7 / 3;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px;
+    
+}
+
+.textmoto5 {
+    grid-area: 6 / 3 / 7 / 5;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px;
+}
+
+.textmoto6 {
+    grid-area: 6 / 5 / 7 / 7;
+    background-color: #F31E1E;
+    border-radius: 20px;
+    margin-top: 40px;
+    height: 180px;
+}
+
+.priannee{
+    display:inline-block;
+    padding: 0px 40px;
+    margin: 40px;
+    color: white;
+    font-size:large;
+}
+
+.essence{
+    display: inline-block;
+    padding: 0px 40px;
+    margin: 40px;
+    color: white;
+    font-size:large;
+}
